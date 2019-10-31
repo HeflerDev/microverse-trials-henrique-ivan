@@ -9,18 +9,23 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <header id='header'>
+    <header id='header' class="container">
+      <div class="child-img">
         <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture15376193694834.jpg" alt="" id="header-img">
+      </div>
+      <div class="child-nav">
         <nav id="nav-bar">
-          <a class="nav-link" href="#something"></a>
-          <a class="nav-link" href="#something"></a>
-          <a class="nav-link" href="#something"></a>
+          <a class="nav-link" href="#header">Header</a>
+          <a class="nav-link" href="#video">Video</a>
+          <a class="nav-link" href="#form">Form</a>
         </nav>
+      </div>
     </header>
 
     <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"> </iframe>
-    <form id='form' method="post">
-        <input type="email" id='email' required placeholder="Input E-mail">
+    <form id='form' method="post" action=" https://www.freecodecamp.com/email-submit">
+        <input name="email" type="email" id='email' required placeholder="Input E-mail">
+        <input type="submit" value="Submit" id="submit">
     </form>
 
     <script  src="js/index.js"></script>
