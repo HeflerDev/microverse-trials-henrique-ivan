@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-between;
 }
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 
 header img {
     display: inline-block;
@@ -11,4 +17,9 @@ header img {
 
 iframe {
     margin-top: 200px;
+}
+nav {
+    margin-top: 0px;
+    display: fixed ;
+    top: 0px;
 }
